@@ -1,0 +1,46 @@
+# Project Details
+site_name: QS Automation
+
+# Copyright
+copyright: Copyright &copy; 2021 Gain-Insights Solutions Private Limited.
+
+# Navigation
+nav:
+    - Introduction: index.md
+    - Architecture: architecture.md
+    - Installation: installation.md
+    - User Role: userrole.md
+    - Users: users.md
+    - Login: login.md
+    - Home Page: homepage.md
+    - Admin Panel: adminpanel.md
+    - Projects: projects.md
+    - Repositories: repositories.md
+    - Jobs: jobs.md
+    - Packages: packages.md
+
+# Configurations
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: img/logo.png
+  favicon: img/logo.png
+  features:
+    # - toc.integrate
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - header.autohide
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
